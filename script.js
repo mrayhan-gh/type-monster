@@ -106,7 +106,7 @@ const gameOver = () => {
     <h1>Finished!</h1><br>
     <p>You took:  <span class="bold">${timeTaken.toFixed()}</span> seconds</p>
     <p>You made:  <span class="bold red">${errorCount}</span> mistakes</p><br>
-    <button onclick="closeModal()">Close</button>
+    <button class="close-btn" onclick="closeModal()">Close</button>
     `;
 
     // Add the result as a history:
