@@ -83,6 +83,7 @@ body {
 }
 .bold {
   font-weight: 700;
+  color: crimson;
 }
 .inactive {
   border: 2px solid white !important;
