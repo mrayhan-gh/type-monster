@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+/* ----styles for headings----- */
+header{
+  margin-bottom: 80px;
+}
+.hc{
+  display: flex;
+  position: absolute;
+  left: 20%;
+}
+.hi{
+    margin-right: 350px;
+    margin-bottom: 10px;
+    font-size: 35px;
+
+}
+.hi>a {
+  text-decoration: none;
+  color: crimson;
+}
+
 body {
   background-image: url("./bg.png");
   background-size: cover;
@@ -51,9 +71,8 @@ body {
 
 
 #show-time{
-  text-align: center;
   color: white;
-  margin: 10px 0;
+  font-size: 30px;
 }
 
 .green {
